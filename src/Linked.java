@@ -1,3 +1,5 @@
+package HW;
+
 import java.util.*;
 
 public class Linked {
@@ -122,6 +124,8 @@ public class Linked {
     }
 
     public void task24(LinkedList<String> list, LinkedList<String> list2) {
+        Collections.sort(list);
+        Collections.sort(list2);
         System.out.println(list.equals(list2));
     }
 

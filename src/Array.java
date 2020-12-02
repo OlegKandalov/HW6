@@ -1,3 +1,5 @@
+package HW;
+
 import java.util.*;
 
 public class Array {
@@ -35,7 +37,7 @@ public class Array {
     }
 
     public void task6(List<String> list) {
-        list.remove(3);
+        list.remove(2);
         System.out.println(list);
     }
 
@@ -53,7 +55,7 @@ public class Array {
     }
 
     public void task9(List<String> list1, List<String> list2) {
-        list1.addAll(list2);
+       Collections.copy(list1, list2);
         System.out.println(list1);
     }
 
